@@ -19,4 +19,8 @@
     Print(1)
   else
     Print(2);
+  
+  if (Year mod 4 = 0) and ((Year mod 100 <> 0) or (Year mod 400 = 0)) then
+    Print(366)
+  else Print(365);
 end.
