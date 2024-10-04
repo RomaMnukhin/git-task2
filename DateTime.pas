@@ -35,4 +35,7 @@
     else resDays += 365;
     
   Println(resDays);
+  
+  var hours := ReadInteger('Введи количество часов: ');
+  Print($'Число секунд: {hours * 3600}');
 end.
